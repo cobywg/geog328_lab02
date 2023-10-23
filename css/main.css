@@ -22,6 +22,7 @@ h1, h2{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 26px;
+  max-width: fit-content;
 }
 
 /* Change the color of links on hover */
@@ -176,10 +177,6 @@ tr:nth-child(even) {
   }
 }
 
-/* When the screen is less than 800 pixels wide, if the user clicks on the icon */
-/* the "responsive" class attribute will be added to the topnav by the JavaScript code */
-/* This media query sets the style for the unfolded topnav */
-/* It makes the topnav look good on small screens (display the links vertically instead of horizontally)  */
 @media screen and (max-width: 800px) {
   .topnav.responsive {
     position: relative;
